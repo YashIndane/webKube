@@ -8,6 +8,7 @@ This is a WebApp build using Python-CGI and JS, to interact with `Kubernetes` an
 1. A Kubernetes cluster
 
 Ansible role to configure Kubernetes cluster over AWS -> [link](https://github.com/YashIndane/multinode-K8S-cluster-configure-aws)
+
 The WebApp runs on the `master` node.
 
 2. httpd on master node
@@ -17,3 +18,5 @@ install by ->
 ```
 yum install httpd -y
 ```
+
+## Usage
