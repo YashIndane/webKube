@@ -1,0 +1,99 @@
+#cli{
+  position: absolute;
+  top: 40px;
+  left: 490px;
+  width: 560px;
+  height: 40px;
+  font-family: "Tahoma";
+  border-color: #0096ff;
+  outline: none;
+  border-style: solid;
+}
+
+#sub{
+  position: absolute;
+  top: 40px;
+  left: 1060px;
+  width: 100px;
+  height: 40px;
+  font-family: "Tahoma";
+  border-radius: 0px;
+  background-color: #0096ff;
+  border-color: #0096ff;
+}
+
+
+#lp{
+  position: absolute;
+  top: 90px;
+  left: 25px;
+  width: 170px;
+  height: 40px;
+  font-family: "Tahoma";
+  border-radius: 0px;
+}
+
+
+#ld{
+  position: absolute;
+  top: 140px;
+  left: 25px;
+  width: 170px;
+  height: 40px;
+  font-family: "Tahoma";
+  border-radius: 0px;
+}
+
+#sd{
+  position: absolute;
+  top: 190px;
+  left: 25px;
+  width: 170px;
+  height: 40px;
+  font-family: "Tahoma";
+  border-radius: 0px;
+}
+
+#cs{
+  position: absolute;
+  top: 240px;
+  left: 25px;
+  width: 170px;
+  height: 40px;
+  font-family: "Tahoma";
+  border-radius: 0px;
+}
+
+#del{
+  position: absolute;
+  top: 290px;
+  left: 25px;
+  width: 170px;
+  height: 40px;
+  font-family: "Tahoma";
+  border-radius: 0px;
+}
+
+#mic{
+  position: absolute;
+  top: 40px;
+  left: 1013px;
+  border-radius: 0px;
+  height: 40px;
+  background-color: #0096ff;
+  border-color: #0096ff;
+
+}
+
+#ti{
+  position: absolute;
+  top: 33px;
+  left: 25px;
+}
+
+#out{
+  position: absolute;
+  top: 95px;
+  left: 490px;
+
+}

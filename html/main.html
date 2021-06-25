@@ -1,0 +1,51 @@
+<html>
+  <head>
+    <title>WEBKUBE</title>
+    <link rel = "stylesheet" type = "text/css" href = "main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel = "shortcut icon" type = "image/png" href="samlogo.png">
+
+</html>
+
+  </head>
+  <body>
+    <h1 id = "ti">webKube</h1>
+
+     <input type = "text" id = "cli" />
+     <button id = "sub" class = "btn btn-primary"  onclick = "run_command()">
+       RUN
+     </button>
+
+    <button class = "btn btn-success" onclick = "launch_pod()" id = "lp">
+     Launch pod
+    </button>
+
+    <button class = "btn btn-success" onclick = "launch_deployment()" id = "ld">
+     Launch deployment
+    </button> 
+
+    <button class = "btn btn-success" onclick = "scale_deployment()" id = "sd">
+     Scale deployment
+    </button>
+ 
+    <button class = "btn btn-warning" onclick = "create_service()" id = "cs">
+     Create service
+    </button>
+
+    <button class = "btn btn-danger" onclick = "Delete()" id = "del">
+     <i class="far fa-trash-alt"></i>
+     Delete
+    </button>
+
+    <button class = "btn btn-primary" onclick = "interact()" id = "mic">
+     <i class="fas fa-microphone-alt"></i>    
+    </button>
+    
+    <pre><p id = "out"></p></pre>
+
+  </body>
+
+  <script type = "text/javascript" src = "main.js"></script>
+  
+</html>
