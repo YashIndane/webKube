@@ -37,5 +37,3 @@ elif "show" in command and "pod" in command:
   
 else:
   print("Not understood, Please try again")
-  
-
