@@ -34,4 +34,8 @@ elif "show" in command and "deployment" in command:
 elif "show" in command and "pod" in command:
   status = go("sudo kubectl get pods")
   print(status)
+  
+else:
+  print("Not understood, Please try again")
+  
 
