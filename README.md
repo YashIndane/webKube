@@ -22,3 +22,15 @@ yum install httpd -y
 ```
 
 ## Usage
+
+The buttons given in left side, can be used to do various tasks.
+
+For voice input ->
+
+1. To launch a pod: example `Please launch a pod with fedora image`
+
+2. To launch a deployment: example `Please launch a depoyment with fedora image`
+
+3. To get pods: example `Can you show me pod`
+
+4. To get deployment: example `Hey please show deployment`
