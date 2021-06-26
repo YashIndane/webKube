@@ -3,6 +3,8 @@ Kubernetes playground with voice commands :microphone:
 
 This is a WebApp build using Python-CGI and JS, to interact with `Kubernetes` and run `kubectl` commands (Voice input also supported!).
 
+![](webkube.png)
+
 ## Requirements
 
 1. A Kubernetes cluster
