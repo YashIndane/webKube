@@ -18,7 +18,7 @@ The WebApp runs on the `master` node.
 install by ->
 
 ```
-yum install httpd -y
+$ yum install httpd -y
 ```
 
 ## Usage
