@@ -10,7 +10,7 @@ form_values = cgi.FieldStorage()
 
 cmd = form_values.getvalue("cmd")
 
-if "kubectl" in cmd :
+if "kubectl" in cmd:
   status = go(f"sudo {cmd}")
 else:
   status = "only kubectl commands allowed"
